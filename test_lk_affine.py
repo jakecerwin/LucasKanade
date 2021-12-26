@@ -5,7 +5,7 @@ import matplotlib.patches as patches
 from LucasKanadeAffine import LucasKanadeAffine
 from file_utils import mkdir_if_missing
 
-data_name = 'landing'      # could choose from (car1, car2, landing) 
+data_name = 'car2'      # could choose from (car1, car2, landing)
 
 # load data name
 data = np.load('../data/%s.npy' % data_name)
